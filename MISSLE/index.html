@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> MISSLE WARNING SYSTEM </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>	
+	<!--progress bar; but how 2 use-->
+	<div id="myProgress">
+	<div id="myBar"></div>
+	</div>
+
+	<h1 align="center" style="color:blue;">SIMULATOR</h1>
+
+	<!--namespace-->
+	<form align="center">
+		<em>first name:</em><br>
+		<input type="text" name="firstname">
+		<br>
+		<em>last name:</em><br>
+		<input type="text" name="lastname">
+		<br /><input  type="submit" value="Submit">
+	</form>
+	<br />
+	<br />
+
+	<!--missle buttons--
+	<form align="center">
+		<input type="button" id="prev" value="TEST WARNING">
+		<input type="button" id="next" value="ACTUAL WARNING"
+	</form>-->
+	<div align="center">
+	<button id="yo" type="button" onclick="move()"> TEST WARNING</button>	
+	<button type="button" onclick="move()"> ACTUAL WARNING</button>
+	</div>
+
+	<!--bitch-->
+	<p align="center" title="SUNMI IS OUR GAY ICON!" style="color:red;">_____</p>
+
+	<!--color buttons place here like this-->
+	<hr color="red" width="50%" size="100"/>
+	<hr color="blue" width="50%" size="100"/>
+	<br />
+	<br />	
+
+	<button class="secondary" onclick="myFunction()">Try it</button>
+
+	<div id="test"> </div>
+
+<script>
+	document.getElementById("test").innerHTML = "Hi there!";
+</script> 
+
+	
+</body>
+
+
+</html>
+		

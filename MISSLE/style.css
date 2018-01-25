@@ -1,0 +1,33 @@
+#myProgress {
+    width: 100%;
+    background-color: #999;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+
+input[type='button'] {
+
+	color: white;
+	padding: 60px; 
+	border-radius:9px;
+	background-color:b lack;
+}
+
+body {
+	background:white;
+	font-family:futura;
+}
+
+.secondary {
+ width:100%;
+ height:10px;
+}
+
+button {
+	background:#999;
+	color:white;
+	padding:100px;
+}

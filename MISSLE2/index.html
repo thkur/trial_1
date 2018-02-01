@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> MISSLE WARNING SYSTEM </title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>	
+	<!--progress bar; but how 2 use-->
+	<div id="myProgress">
+	<div id="myBar"></div>
+	</div>
+
+	<h1 align="center" style="color:blue;">SIMULATOR</h1>
+
+	<!--namespace-->
+	<form align="center">
+		<em>first name:</em><br>
+		<input type="text" name="firstname">
+		<br>
+		<em>last name:</em><br>
+		<input type="text" name="lastname">
+		<br /><input  type="submit" value="Submit">
+	</form>
+	<br />
+	<br />
+
+	<!--missle buttons--
+	<form align="center">
+		<input type="button" id="prev" value="TEST WARNING">
+		<input type="button" id="next" value="ACTUAL WARNING"
+	</form>-->
+	<div align="center">
+	<button id="yo" type="button" onclick="move()"> TEST WARNING</button>	
+	<button type="button" onclick="move()"> ACTUAL WARNING</button>
+	</div>
+
+	<!--n-->
+	<p align="center" title="OK!" style="color:red;">_____</p>
+
+	<!--internet ad-->
+	<img class="bitcoin" src="bitcoin.gif" alt="bitcoin NOW" width="500" height="100">
+
+	<!---hover effect
+	<img src='LibraryTransparent.png' onmouseover="this.src='LibraryHoverTrans.png';" onmouseout="this.src='LibraryTransparent.png';" />
+	-->
+
+
+
+	<!--color buttons place here like this-->
+	<hr onmouseover="toggleNav()" color="red" width="50%" size="100"/>
+	<hr onmouseout="toggleNav()"color="blue" width="50%" size="100"/>
+	<br />
+	<br />	
+
+	<script>
+		function toggleNav() {
+			alert("farming");
+		}
+	</script>
+
+	<!-- try it border + change color-->
+
+	<button class="secondary" onclick="myFunction()">Try it</button>
+ 
+
+	
+</body>
+
+
+</html>
+		
